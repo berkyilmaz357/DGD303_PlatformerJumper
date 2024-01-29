@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class NCPINInteraction : MonoBehaviour
 {
-    public GameObject abcObject; // "abc" etiketine sahip obje
+    public GameObject abcObject; 
 
     private void OnTriggerEnter(Collider other)
     {

@@ -76,7 +76,7 @@ namespace EasyPhysicsSurfaces
     
         private void ApplyRotation()
     	{
-            // transform.eulerAngles += Vector3.up * m_mouseInput.x * Time.deltaTime;
+            
     
             m_yaw += m_mouseInput.x * Time.deltaTime;
             m_pitch = Mathf.Clamp( m_pitch - m_mouseInput.y * Time.deltaTime, -89, 89 );
@@ -114,7 +114,7 @@ namespace EasyPhysicsSurfaces
                     m_footstepDelay -= Time.deltaTime;
                 else
     			{
-                    float maxSpeed = m_speed * 2.5f; // speed in sprint
+                    float maxSpeed = m_speed * 2.5f; 
                     Footstep( horizonalVelocity.magnitude / maxSpeed );
     			}
     		}
