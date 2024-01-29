@@ -9,6 +9,7 @@ TagManager:
   - NPC
   - PlayerBody
   - abc
+  - Ground
   layers:
   - Default
   - TransparentFX

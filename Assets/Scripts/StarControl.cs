@@ -14,7 +14,7 @@ public class StarControl: MonoBehaviour
         if (other.transform.tag == "Yýldýz")
             
             Coin++;
-            coinText.text = "Coin: " + Coin.ToString();
+            coinText.text = "STARS: " + Coin.ToString();
             
             Destroy(other.gameObject);
     }
